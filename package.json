@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-modules-newline-fixed",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "Enforce placing import or export variables on a newline",
   "keywords": [
     "eslint",
@@ -10,13 +10,13 @@
     "export",
     "newline"
   ],
-  "author": "Anton Antonov (foxic[AT]foxic[DOT]ru)",
+  "author": "Andrey Pakhomov <stonewalrusfan@gmail.com>",
   "main": "lib/index.js",
   "repository": {
     "type" : "git",
-    "url" : "https://github.com/gmsorrow/eslint-plugin-modules-newline.git"
+    "url" : "https://github.com/CyberWalrus/eslint-plugin-modules-newline.git"
   },
-  "homepage": "https://github.com/gmsorrow/eslint-plugin-modules-newline#readme",
+  "homepage": "https://github.com/CyberWalrus/eslint-plugin-modules-newline#readme",
   "scripts": {
     "test": "mocha tests --recursive"
   },

@@ -1,6 +1,9 @@
 # eslint-plugin-modules-newline-fixed
 
+Forked from [eslint-plugin-modules-newline](https://github.com/gmsorrow/eslint-plugin-modules-newline):
+
 Eslint plugin to enforce placing import and export variables on separate lines
+
 
 ## Installation
 
@@ -33,7 +36,7 @@ Add `eslint-plugin-modules-newline-fixed` to the plugins section of your `.eslin
 ```json
 {
     "plugins": [
-        "modules-newline"
+        "modules-newline-fixed"
     ]
 }
 ```
@@ -44,8 +47,8 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "modules-newline/import-declaration-newline": "warn",
-        "modules-newline/export-declaration-newline": "warn"
+        "modules-newline/import-declaration-newline-fixed": "warn",
+        "modules-newline/export-declaration-newline-fixed": "warn"
     }
 }
 ```

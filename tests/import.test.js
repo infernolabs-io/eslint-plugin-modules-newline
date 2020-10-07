@@ -49,17 +49,6 @@ ruleTester.run("import-declaration-newline", rule, {
           column: 1,
         },
       ],
-    },
-    {
-      code: "import React, { useState } from 'react';",
-      output: "import React,\n { useState } from 'react';",
-      errors: [
-        {
-          type: "ImportDeclaration",
-          line: 1,
-          column: 1,
-        },
-      ],
-    },
+    }
   ],
 });
