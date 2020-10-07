@@ -47,8 +47,8 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "modules-newline/import-declaration-newline-fixed": "warn",
-        "modules-newline/export-declaration-newline-fixed": "warn"
+        "modules-newline-fixed/import-declaration-newline": "warn",
+        "modules-newline-fixed/export-declaration-newline": "warn"
     }
 }
 ```
